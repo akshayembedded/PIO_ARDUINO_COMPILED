@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "luat_mem.h": "c",
+        "idf5_io_def.h": "c",
+        "i2c.h": "c",
+        "luat_base.h": "c",
+        "i2c_types.h": "c",
+        "stdint.h": "c",
+        "soc_caps.h": "c",
+        "gpio.h": "c",
+        "queue.h": "c",
+        "semphr.h": "c",
+        "i2c_master.h": "c",
+        "gpio_types.h": "c",
+        "sdkconfig.h": "c",
+        "luat_i2c.h": "c",
+        "clk_tree_defs.h": "c"
+    }
+}
