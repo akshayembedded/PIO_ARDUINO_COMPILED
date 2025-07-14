@@ -88,8 +88,11 @@ bool piezo_init_c(void)
     // ledcSetup(PIEZO_CHANNEL, 5000, PWM_RESOLUTION);
 
     // ledcAttachPin(PIEZO_PIN, PIEZO_CHANNEL);
+   
     ledcAttachChannel(PIEZO_PIN, 5000, PWM_RESOLUTION, PIEZO_CHANNEL );
-    ledcWrite(PIEZO_PIN, 0);
+    Serial.println("Piezo initialized");
+    ledcWriteChannel(PIEZO_CHANNEL, 0);
+    Serial.println("Piezo PWM channel attached");
 
     // Create command queue
     if (command_queue == NULL)
@@ -415,7 +418,7 @@ static void piezo_task(void *pvParameters)
             {
             case CMD_FORCE_STOP:
                 // Force stop overrides everything
-                ledcWrite(PIEZO_PIN, 0);
+                ledcWriteChannel(PIEZO_CHANNEL, 0);
                 is_playing = false;
                 if (cmd.mode == MODE_BLOCKING && cmd.completion_sem != NULL)
                 {
@@ -428,7 +431,7 @@ static void piezo_task(void *pvParameters)
                 break;
 
             case CMD_STOP:
-                ledcWrite(PIEZO_CHANNEL, 0);
+                ledcWriteChannel(PIEZO_CHANNEL, 0);
                 break;
 
             case CMD_SUCCESS:
@@ -481,14 +484,14 @@ static void play_tone(int frequency, int duration)
     }
 
     // Play the tone
-    ledcAttachChannel(PIEZO_PIN, frequency, PWM_RESOLUTION, PIEZO_CHANNEL);
-    ledcWrite(PIEZO_CHANNEL, DEFAULT_DUTY / 3);
+    // ledcAttachChannel(PIEZO_PIN, frequency, PWM_RESOLUTION, PIEZO_CHANNEL);
+    ledcWriteChannel(PIEZO_CHANNEL, DEFAULT_DUTY / 3);
 
     // Wait for duration
     vTaskDelay(duration / portTICK_PERIOD_MS);
 
     // Turn off the tone
-    ledcWrite(PIEZO_CHANNEL, 0);
+    ledcWriteChannel(PIEZO_CHANNEL, 0);
 
     // Call step callback with playing=false
     if (callback_ref_step != LUA_NOREF && L_global != NULL)

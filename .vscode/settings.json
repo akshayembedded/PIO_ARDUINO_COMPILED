@@ -15,6 +15,20 @@
         "sdkconfig.h": "c",
         "luat_i2c.h": "c",
         "clk_tree_defs.h": "c",
-        "adc.h": "c"
+        "adc.h": "c",
+        "ledc.h": "c",
+        "esp32-hal-ledc.h": "c",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "span": "cpp",
+        "text_encoding": "cpp"
     }
 }
