@@ -31,6 +31,15 @@
         "span": "cpp",
         "text_encoding": "cpp",
         "lfs_util.h": "c",
-        "cstdlib": "c"
+        "cstdlib": "c",
+        "luat_timer.h": "c",
+        "luat_fs.h": "c",
+        "stdlib.h": "c",
+        "lprefix.h": "c",
+        "string.h": "c",
+        "lauxlib.h": "c",
+        "lualib.h": "c",
+        "stdio.h": "c",
+        "lua.h": "c"
     }
 }
