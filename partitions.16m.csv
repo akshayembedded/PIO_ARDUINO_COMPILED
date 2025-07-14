@@ -4,4 +4,4 @@ otadata,  data, ota,     0xD000, 0x2000
 phy_init, data, phy,     0xF000, 0x1000
 app0,     app,  ota_0,   0x10000, 0x200000
 app1,     app,  ota_1,   0x210000,0x200000
-spiffs,   data, spiffs,  0x410000,0xBF0000 
+spiffs, data, 0x83, 0x410000, 0xBF0000
