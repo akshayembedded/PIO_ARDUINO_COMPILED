@@ -6,18 +6,18 @@
 void setup()
 {
     // Configure the wrapper
-    // Serial.begin(115200);
+    Serial.begin(115200);
 
-    // initializeDevice();
-    // lua_setup();
+    initializeDevice();
+    lua_setup();
     
 }
 
 void loop()
 {
     // Handle serial commands
-    // processBLEMessages();
-    // bleController.processOTAData();
+    processBLEMessages();
+    bleController.processOTAData();
 
 }
 

@@ -14,6 +14,7 @@
         "gpio_types.h": "c",
         "sdkconfig.h": "c",
         "luat_i2c.h": "c",
-        "clk_tree_defs.h": "c"
+        "clk_tree_defs.h": "c",
+        "adc.h": "c"
     }
 }
