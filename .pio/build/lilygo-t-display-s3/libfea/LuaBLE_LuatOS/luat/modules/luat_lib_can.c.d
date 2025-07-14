@@ -1,0 +1,32 @@
+.pio/build/lilygo-t-display-s3/libfea/LuaBLE_LuatOS/luat/modules/luat_lib_can.c.o: \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/src/luat/modules/luat_lib_can.c \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_base.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_types.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lua.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luaconf.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_conf_bsp.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_conf_default.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/printf.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lualib.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lauxlib.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/rotable.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/rotable2.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lstate.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lobject.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/llimits.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/ltm.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lzio.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/lmem.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_libs.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_sys.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_msgbus.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_base.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_mem.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_malloc.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_can.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_zbuff.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_mem.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_msgbus.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/c_common.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/luat_log.h \
+ .pio/libdeps/lilygo-t-display-s3/LuaBLE_LuatOS/include/rotable2.h
