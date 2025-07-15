@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/CMakeFiles/bootloader
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/CMakeFiles/bootloader.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/CMakeFiles/bootloader-complete.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

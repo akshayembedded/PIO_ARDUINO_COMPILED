@@ -421,6 +421,8 @@ static inline bool IRAM_ATTR ble_npl_hw_is_in_critical(void)
 #include "freertos/semphr.h"
 #include "freertos/task.h"
 #include "freertos/timers.h"
+#include "esp_timer.h"
+
 
 #ifdef __cplusplus
 extern "C" {

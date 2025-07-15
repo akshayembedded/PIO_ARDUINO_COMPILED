@@ -40,6 +40,12 @@
         "lauxlib.h": "c",
         "lualib.h": "c",
         "stdio.h": "c",
-        "lua.h": "c"
+        "lua.h": "c",
+        "luat_msgbus.h": "c",
+        "luat_libs.h": "c",
+        "luat_log.h": "c",
+        "luat_types.h": "c",
+        "lstate.h": "c",
+        "map": "cpp"
     }
 }
