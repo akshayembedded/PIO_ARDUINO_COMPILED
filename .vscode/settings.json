@@ -46,6 +46,8 @@
         "luat_log.h": "c",
         "luat_types.h": "c",
         "lstate.h": "c",
-        "map": "cpp"
+        "map": "cpp",
+        "stop_token": "cpp",
+        "tuple": "cpp"
     }
 }

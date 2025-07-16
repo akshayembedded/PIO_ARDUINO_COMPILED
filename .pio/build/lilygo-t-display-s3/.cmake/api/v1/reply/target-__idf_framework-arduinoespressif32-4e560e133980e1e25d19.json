@@ -137,26 +137,26 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 343,
-				"parent" : 6
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 343,
-				"parent" : 6
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 343,
-				"parent" : 6
-			},
-			{
-				"command" : 2,
-				"file" : 0,
 				"line" : 340,
 				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 6
 			},
 			{
 				"command" : 2,
@@ -1309,15 +1309,15 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_driver_parlio/include"
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/chmorgan__esp-libhelix-mp3/libhelix-mp3/pub"
 				},
 				{
-					"backtrace" : 18,
+					"backtrace" : 19,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-modbus/freemodbus/common/include"
 				},
 				{
-					"backtrace" : 18,
+					"backtrace" : 19,
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_timer/include"
 				},
 				{
@@ -1333,11 +1333,11 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_netif/include"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 20,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__libsodium/libsodium/src/libsodium/include"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 20,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__libsodium/port_include"
 				},
 				{
@@ -1569,163 +1569,163 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_psram/include"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 21,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__cbor/port/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/dotprod/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/support/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/support/mem/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/hann/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/blackman/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/blackman_harris/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/blackman_nuttall/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/nuttall/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/flat_top/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/iir/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/fir/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/add/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/sub/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/mul/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/addc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/mulc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/sqrt/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/mul/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/add/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/addc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/mulc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/sub/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/fft/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/dct/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/conv/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/common/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/mul/test/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/kalman/ekf/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-sr/src/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-sr/esp-tts/esp_tts_chinese/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-sr/include/esp32s3"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/json/cJSON"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 23,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diag_data_store/src/rtc_store"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 23,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diag_data_store/include"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diagnostics/include"
 				},
 				{
@@ -1733,7 +1733,7 @@
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_insights/include"
 				},
 				{
-					"backtrace" : 23,
+					"backtrace" : 24,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_modem/include"
 				},
 				{
@@ -1769,7 +1769,7 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/protocomm/proto-c"
 				},
 				{
-					"backtrace" : 24,
+					"backtrace" : 17,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__qrcode/include"
 				},
 				{
@@ -2675,15 +2675,15 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_driver_parlio/include"
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/chmorgan__esp-libhelix-mp3/libhelix-mp3/pub"
 				},
 				{
-					"backtrace" : 18,
+					"backtrace" : 19,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-modbus/freemodbus/common/include"
 				},
 				{
-					"backtrace" : 18,
+					"backtrace" : 19,
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_timer/include"
 				},
 				{
@@ -2699,11 +2699,11 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_netif/include"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 20,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__libsodium/libsodium/src/libsodium/include"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 20,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__libsodium/port_include"
 				},
 				{
@@ -2935,163 +2935,163 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_psram/include"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 21,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__cbor/port/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/dotprod/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/support/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/support/mem/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/hann/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/blackman/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/blackman_harris/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/blackman_nuttall/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/nuttall/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/windows/flat_top/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/iir/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/fir/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/add/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/sub/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/mul/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/addc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/mulc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/math/sqrt/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/mul/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/add/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/addc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/mulc/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/sub/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/fft/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/dct/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/conv/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/common/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/matrix/mul/test/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/kalman/ekf/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-sr/src/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-sr/esp-tts/esp_tts_chinese/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp-sr/include/esp32s3"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/json/cJSON"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 23,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diag_data_store/src/rtc_store"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 23,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diag_data_store/include"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diagnostics/include"
 				},
 				{
@@ -3099,7 +3099,7 @@
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_insights/include"
 				},
 				{
-					"backtrace" : 23,
+					"backtrace" : 24,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_modem/include"
 				},
 				{
@@ -3135,7 +3135,7 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/protocomm/proto-c"
 				},
 				{
-					"backtrace" : 24,
+					"backtrace" : 17,
 					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__qrcode/include"
 				},
 				{
@@ -3218,35 +3218,35 @@
 		},
 		{
 			"backtrace" : 10,
-			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
-		},
-		{
-			"backtrace" : 10,
 			"id" : "__idf_protocomm::@d76d01c8dec06205e1fc"
 		},
 		{
-			"backtrace" : 11,
-			"id" : "__idf_espcoredump::@718b9a7d55ab42cfc0a3"
+			"backtrace" : 10,
+			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
 		},
 		{
 			"backtrace" : 10,
 			"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef"
 		},
 		{
-			"backtrace" : 12,
-			"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6"
+			"backtrace" : 11,
+			"id" : "__idf_espcoredump::@718b9a7d55ab42cfc0a3"
 		},
 		{
 			"backtrace" : 12,
 			"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7"
 		},
 		{
+			"backtrace" : 12,
+			"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6"
+		},
+		{
 			"backtrace" : 13,
-			"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56"
+			"id" : "__idf_json::@c78a8bdc820334f01148"
 		},
 		{
 			"backtrace" : 14,
-			"id" : "__idf_json::@c78a8bdc820334f01148"
+			"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56"
 		},
 		{
 			"backtrace" : 15,
@@ -3259,54 +3259,6 @@
 		{
 			"backtrace" : 10,
 			"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098"
-		},
-		{
-			"backtrace" : 17,
-			"id" : "__idf_chmorgan__esp-libhelix-mp3::@2001e510bbb61b374403"
-		},
-		{
-			"backtrace" : 18,
-			"id" : "__idf_espressif__esp-modbus::@24a1f82e072a23c2d1e0"
-		},
-		{
-			"backtrace" : 19,
-			"id" : "__idf_espressif__libsodium::@3ebc301d3644656e186f"
-		},
-		{
-			"backtrace" : 7,
-			"id" : "__idf_espressif__mdns::@d92204a997f34ad8e688"
-		},
-		{
-			"backtrace" : 20,
-			"id" : "__idf_espressif__cbor::@b48c68098eeb87457809"
-		},
-		{
-			"backtrace" : 21,
-			"id" : "__idf_espressif__esp-dsp::@173cdc30d8d2ec42511f"
-		},
-		{
-			"backtrace" : 14,
-			"id" : "__idf_espressif__esp-sr::@6171f978ca351fd99ba3"
-		},
-		{
-			"backtrace" : 22,
-			"id" : "__idf_espressif__esp_diag_data_store::@0812b0e2ee947b61146b"
-		},
-		{
-			"backtrace" : 13,
-			"id" : "__idf_espressif__rmaker_common::@c6b174d45560089ccfa0"
-		},
-		{
-			"backtrace" : 11,
-			"id" : "__idf_espressif__esp_insights::@68befea4f4c4b7b3584b"
-		},
-		{
-			"backtrace" : 13,
-			"id" : "__idf_espressif__esp_diagnostics::@4d5ef9c3b0350e2a0d42"
-		},
-		{
-			"backtrace" : 23,
-			"id" : "__idf_espressif__esp_modem::@e71879e93e1b868b600d"
 		},
 		{
 			"backtrace" : 10,
@@ -3341,8 +3293,56 @@
 			"id" : "__idf_espressif__esp_rainmaker::@3d1b956c754767bf2550"
 		},
 		{
-			"backtrace" : 24,
+			"backtrace" : 17,
 			"id" : "__idf_espressif__qrcode::@a73cb04e6af3b825f532"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "__idf_chmorgan__esp-libhelix-mp3::@2001e510bbb61b374403"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "__idf_espressif__esp-modbus::@24a1f82e072a23c2d1e0"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "__idf_espressif__libsodium::@3ebc301d3644656e186f"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "__idf_espressif__cbor::@b48c68098eeb87457809"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_espressif__mdns::@d92204a997f34ad8e688"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "__idf_espressif__esp-sr::@6171f978ca351fd99ba3"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "__idf_espressif__esp-dsp::@173cdc30d8d2ec42511f"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "__idf_espressif__esp_diag_data_store::@0812b0e2ee947b61146b"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "__idf_espressif__esp_diagnostics::@4d5ef9c3b0350e2a0d42"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "__idf_espressif__rmaker_common::@c6b174d45560089ccfa0"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "__idf_espressif__esp_insights::@68befea4f4c4b7b3584b"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "__idf_espressif__esp_modem::@e71879e93e1b868b600d"
 		},
 		{
 			"backtrace" : 25,

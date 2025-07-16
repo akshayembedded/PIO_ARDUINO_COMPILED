@@ -1039,11 +1039,11 @@
 		},
 		{
 			"backtrace" : 5,
-			"id" : "__idf_espressif__rmaker_common::@c6b174d45560089ccfa0"
+			"id" : "__idf_espressif__esp_diagnostics::@4d5ef9c3b0350e2a0d42"
 		},
 		{
 			"backtrace" : 5,
-			"id" : "__idf_espressif__esp_diagnostics::@4d5ef9c3b0350e2a0d42"
+			"id" : "__idf_espressif__rmaker_common::@c6b174d45560089ccfa0"
 		}
 	],
 	"id" : "__idf_espressif__esp_insights::@68befea4f4c4b7b3584b",

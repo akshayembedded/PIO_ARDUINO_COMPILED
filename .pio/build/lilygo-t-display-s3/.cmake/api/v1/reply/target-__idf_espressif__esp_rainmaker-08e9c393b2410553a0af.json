@@ -1989,16 +1989,20 @@
 			"id" : "__idf_esp_https_server::@a47490a9e49b7eabdb18"
 		},
 		{
+			"backtrace" : 5,
+			"id" : "__idf_protocomm::@d76d01c8dec06205e1fc"
+		},
+		{
 			"backtrace" : 8,
 			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
 		},
 		{
 			"backtrace" : 5,
-			"id" : "__idf_protocomm::@d76d01c8dec06205e1fc"
+			"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef"
 		},
 		{
-			"backtrace" : 5,
-			"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef"
+			"backtrace" : 9,
+			"id" : "__idf_json::@c78a8bdc820334f01148"
 		},
 		{
 			"backtrace" : 7,
@@ -2006,19 +2010,7 @@
 		},
 		{
 			"backtrace" : 9,
-			"id" : "__idf_json::@c78a8bdc820334f01148"
-		},
-		{
-			"backtrace" : 9,
 			"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "__idf_espressif__mdns::@d92204a997f34ad8e688"
-		},
-		{
-			"backtrace" : 7,
-			"id" : "__idf_espressif__rmaker_common::@c6b174d45560089ccfa0"
 		},
 		{
 			"backtrace" : 10,
@@ -2047,6 +2039,14 @@
 		{
 			"backtrace" : 15,
 			"id" : "__idf_espressif__esp_secure_cert_mgr::@2137c484516755352d0e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_espressif__mdns::@d92204a997f34ad8e688"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_espressif__rmaker_common::@c6b174d45560089ccfa0"
 		}
 	],
 	"id" : "__idf_espressif__esp_rainmaker::@3d1b956c754767bf2550",

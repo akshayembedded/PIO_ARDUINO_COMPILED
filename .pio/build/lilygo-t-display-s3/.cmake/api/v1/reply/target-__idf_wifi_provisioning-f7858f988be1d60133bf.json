@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "esp-idf/esp_local_ctrl/libesp_local_ctrl.a"
+			"path" : "esp-idf/wifi_provisioning/libwifi_provisioning.a"
 		}
 	],
 	"backtrace" : 2,
@@ -16,8 +16,6 @@
 			"set_property",
 			"__component_set_dependencies",
 			"__component_set_all_dependencies",
-			"target_link_libraries",
-			"idf_component_optional_requires",
 			"add_compile_options",
 			"add_c_compile_options",
 			"add_compile_definitions",
@@ -28,7 +26,7 @@
 		"files" : 
 		[
 			"C:/Users/embeddedmachan/.platformio/packages/framework-espidf/tools/cmake/component.cmake",
-			"C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/CMakeLists.txt",
+			"C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/CMakeLists.txt",
 			"C:/Users/embeddedmachan/.platformio/packages/framework-espidf/tools/cmake/utilities.cmake"
 		],
 		"nodes" : 
@@ -39,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 23,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -67,84 +65,6 @@
 				"parent" : 4
 			},
 			{
-				"command" : 6,
-				"file" : 1,
-				"line" : 29,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 613,
-				"parent" : 6
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 343,
-				"parent" : 4
-			},
-			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 475,
-				"parent" : 1
-			},
-			{
-				"command" : 8,
-				"file" : 0,
-				"line" : 477,
-				"parent" : 1
-			},
-			{
-				"command" : 7,
-				"file" : 2,
-				"line" : 281,
-				"parent" : 10
-			},
-			{
-				"command" : 9,
-				"file" : 0,
-				"line" : 476,
-				"parent" : 1
-			},
-			{
-				"command" : 10,
-				"file" : 0,
-				"line" : 474,
-				"parent" : 1
-			},
-			{
-				"command" : 12,
-				"file" : 0,
-				"line" : 492,
-				"parent" : 1
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 319,
-				"parent" : 14
-			},
-			{
-				"command" : 12,
-				"file" : 0,
-				"line" : 493,
-				"parent" : 1
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 319,
-				"parent" : 16
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 319,
-				"parent" : 16
-			},
-			{
 				"command" : 3,
 				"file" : 0,
 				"line" : 361,
@@ -154,7 +74,73 @@
 				"command" : 2,
 				"file" : 0,
 				"line" : 340,
-				"parent" : 19
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 281,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 476,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 474,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 492,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 493,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 6
 			}
 		]
 	},
@@ -167,107 +153,99 @@
 					"fragment" : "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-error=unused-function"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-error=unused-variable"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-error=unused-but-set-variable"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-error=deprecated-declarations"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-error=extra"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-unused-parameter"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-sign-compare"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Wno-enum-conversion"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-gdwarf-4"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-ggdb"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fno-shrink-wrap"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fmacro-prefix-map=D:/BLE_TEMPLATE_JUNE=."
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fmacro-prefix-map=C:/Users/embeddedmachan/.platformio/packages/framework-espidf=/IDF"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fstrict-volatile-bitfields"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fno-jump-tables"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"fragment" : "-fno-tree-switch-conversion"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 10,
 					"fragment" : "-std=gnu17"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 10,
 					"fragment" : "-Wno-old-style-declaration"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 7,
-					"define" : "ESP_MDNS_VERSION_NUMBER=\"1.8.2\""
-				},
-				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"define" : "ESP_PLATFORM"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"define" : "IDF_VER=\"5.4.2\""
-				},
-				{
-					"backtrace" : 8,
-					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
 				},
 				{
 					"backtrace" : 2,
@@ -278,39 +256,39 @@
 					"define" : "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"define" : "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"define" : "_GLIBCXX_USE_POSIX_SEMAPHORE"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"define" : "_GNU_SOURCE"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"define" : "_POSIX_READER_WRITER_LOCKS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/config"
 				},
 				{
-					"backtrace" : 15,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/include"
+					"backtrace" : 14,
+					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/proto-c"
-				},
-				{
-					"backtrace" : 18,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/src"
+					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/proto-c"
 				},
 				{
 					"backtrace" : 2,
@@ -689,72 +667,12 @@
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_netif/include"
 				},
 				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_https_server/include"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_http_server/include"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/http_parser"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp-tls"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp-tls/esp-tls-crypto"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/port/include"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/mbedtls/include"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/mbedtls/library"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/esp_crt_bundle/include"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/mbedtls/3rdparty/everest/include"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/mbedtls/3rdparty/p256-m"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m"
-				},
-				{
-					"backtrace" : 20,
+					"backtrace" : 18,
 					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/protobuf-c/protobuf-c"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "D:/BLE_TEMPLATE_JUNE/managed_components/espressif__mdns/include"
-				},
-				{
-					"backtrace" : 7,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/console"
-				},
-				{
-					"backtrace" : 7,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/vfs/include"
-				},
-				{
-					"backtrace" : 7,
-					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_vfs_console/include"
+					"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/json/cJSON"
 				}
 			],
 			"language" : "C",
@@ -764,7 +682,14 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -783,33 +708,25 @@
 			"id" : "__idf_console::@4311ed8d271cc0ee1422"
 		},
 		{
-			"backtrace" : 7,
-			"id" : "__idf_esp_eth::@68140d310044213ed0bc"
-		},
-		{
-			"backtrace" : 8,
-			"id" : "__idf_esp_https_server::@a47490a9e49b7eabdb18"
+			"backtrace" : 5,
+			"id" : "__idf_protocomm::@d76d01c8dec06205e1fc"
 		},
 		{
 			"backtrace" : 5,
 			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
 		},
 		{
-			"backtrace" : 5,
-			"id" : "__idf_protocomm::@d76d01c8dec06205e1fc"
-		},
-		{
 			"backtrace" : 7,
-			"id" : "__idf_espressif__mdns::@d92204a997f34ad8e688"
+			"id" : "__idf_json::@c78a8bdc820334f01148"
 		}
 	],
-	"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef",
-	"name" : "__idf_esp_local_ctrl",
-	"nameOnDisk" : "libesp_local_ctrl.a",
+	"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098",
+	"name" : "__idf_wifi_provisioning",
+	"nameOnDisk" : "libwifi_provisioning.a",
 	"paths" : 
 	{
-		"build" : "esp-idf/esp_local_ctrl",
-		"source" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl"
+		"build" : "esp-idf/wifi_provisioning",
+		"source" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning"
 	},
 	"sourceGroups" : 
 	[
@@ -821,7 +738,14 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -830,31 +754,73 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/src/esp_local_ctrl.c",
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/wifi_config.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c",
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/wifi_scan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c",
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/wifi_ctrl.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/src/esp_local_ctrl_transport_ble.c",
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/manager.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/esp_local_ctrl/src/esp_local_ctrl_transport_httpd.c",
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/handlers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/scheme_console.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/proto-c/wifi_config.pb-c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/proto-c/wifi_ctrl.pb-c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/scheme_softap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/wifi_provisioning/src/scheme_ble.c",
 			"sourceGroupIndex" : 0
 		}
 	],
