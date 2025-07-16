@@ -21,16 +21,17 @@ class BLEController::ServerCallbacks : public BLEServerCallbacks
 public:
     ServerCallbacks(BLEController &ctrl) : controller(ctrl) {}
 
-    void onConnect(BLEServer *pServer)
+     void onConnect(BLEServer *pServer, NimBLEConnInfo& connInfo)
     {
         controller.deviceConnected = true;
         if (controller.onConnectCallback)
         {
             controller.onConnectCallback();
         }
+        pServer->updateConnParams(connInfo.getConnHandle(), 24, 48, 0, 180);
     }
 
-    void onDisconnect(BLEServer *pServer)
+    void onDisconnect(BLEServer *pServer, NimBLEConnInfo& connInfo, int reason)
     {
         controller.deviceConnected = false;
         if (controller.onDisconnectCallback)
@@ -40,7 +41,7 @@ public:
         controller.startAdvertising();
     }
 
-    void onMtuChanged(BLEServer *pServer, uint16_t newMtu)
+    void onMTUChange( uint16_t newMtu, NimBLEConnInfo& connInfo)
     {
         controller.handleMtuChange(newMtu);
     }
@@ -53,7 +54,7 @@ class BLEController::CharCallbacks : public BLECharacteristicCallbacks
 public:
     CharCallbacks(BLEController &ctrl) : controller(ctrl) {}
 
-    void onWrite(BLECharacteristic *pCharacteristic)
+    void onWrite(BLECharacteristic *pCharacteristic,NimBLEConnInfo& connInfo)
     {
         std::string rxValue = pCharacteristic->getValue();
         controller.handleReceivedMessage(rxValue);
@@ -67,7 +68,7 @@ class BLEController::OtaCallbacks : public BLECharacteristicCallbacks
 
 public:
     OtaCallbacks(BLEController &ctrl) : controller(ctrl) {}
-    void onWrite(BLECharacteristic *pCharacteristic)
+     void onWrite(BLECharacteristic *pCharacteristic,NimBLEConnInfo& connInfo)
     {
         std::string pData = pCharacteristic->getValue();
         int len = pData.length();
@@ -144,7 +145,9 @@ void BLEController::begin(const String Name)
     BLEDevice::setMTU(512);
 
     pServer = BLEDevice::createServer();
-    pServer->setCallbacks(new ServerCallbacks(*this));
+    serverCallbacks = new ServerCallbacks(*this);
+    pServer->setCallbacks(serverCallbacks);
+    // pServer->setCallbacks(new ServerCallbacks(*this));
 
     BLEService *pService = pServer->createService(serviceUUID.c_str());
     BLEService *pBatService = pServer->createService(batUUID.c_str());
@@ -336,9 +339,11 @@ void BLEController::startAdvertising()
 
     adData.setCompleteServices(NimBLEUUID(productUUID.c_str()));
     pAdvertising->setAdvertisementData(adData);
-    pAdvertising->setScanResponse(true);
-    pAdvertising->setMinPreferred(0x06);
-    pAdvertising->setMinPreferred(0x12);
+    // pAdvertising->setScanResponse(true);
+    // pAdvertising->setMinPreferred(0x06);
+    // pAdvertising->setMinPreferred(0x12);
+    pAdvertising->setPreferredParams(0x0006, 0x000C);
+    pAdvertising->enableScanResponse(true);
     bool success = BLEDevice::startAdvertising();
 }
 
