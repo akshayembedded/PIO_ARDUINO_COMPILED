@@ -1,7 +1,1 @@
-0000000000000000000000000000000000000000 7594def020b7ebde688e4ebf6e60d492148b208a akshayembedded <embeddedmachan@gmail.com> 1752238829 +0530	commit (initial): I2c updated to current idf version
-7594def020b7ebde688e4ebf6e60d492148b208a b19665a6952676339f4e9aa38ec6281820968697 akshayembedded <embeddedmachan@gmail.com> 1752475659 +0530	commit: added Cmakelists.txt instead of build flags
-b19665a6952676339f4e9aa38ec6281820968697 f83240717a9b5c50279a6910c5d4bfe821f96aae akshayembedded <embeddedmachan@gmail.com> 1752479250 +0530	commit: PledcChannel attached
-f83240717a9b5c50279a6910c5d4bfe821f96aae 167ac3f04c2624c1fcb9bb0d0bd687e259d09613 akshayembedded <embeddedmachan@gmail.com> 1752490776 +0530	commit: pio added, solved memory issue solved
-167ac3f04c2624c1fcb9bb0d0bd687e259d09613 19701108e171d6cc693a679aac4d23a5e44a63da akshayembedded <embeddedmachan@gmail.com> 1752499108 +0530	commit: Updated
-19701108e171d6cc693a679aac4d23a5e44a63da 22e815d1e7548ddf4ad08199e73c6761519ae558 akshayembedded <embeddedmachan@gmail.com> 1752499262 +0530	commit: .pio added
-22e815d1e7548ddf4ad08199e73c6761519ae558 3b4cd4bf5de181ba941c303c4db10c4a767ecaa6 akshayembedded <embeddedmachan@gmail.com> 1752582643 +0530	commit: idf component
+98bca6b39bfb9be343d868dc2d70a50d197d6668

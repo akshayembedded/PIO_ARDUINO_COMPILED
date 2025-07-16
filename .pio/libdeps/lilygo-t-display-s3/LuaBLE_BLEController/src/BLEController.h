@@ -178,7 +178,7 @@ private:
     class ServerCallbacks;
     class CharCallbacks;
     class OtaCallbacks;
-
+    ServerCallbacks *serverCallbacks;
     int currentBatteryLevel;
     uint8_t currentSWVersion[3];
     uint8_t currentHWVersion[3];

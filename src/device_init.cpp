@@ -16,14 +16,14 @@ void initializeBLEController(String deviceName)
 
     bleController.setBlePrefix(BLE_NAME_PREFIX);
     bleController.setBleProductUUID(BLE_PRODUCT_UUID);
-    bleController.begin(deviceName);
     bleController.setOnConnectCallback(handleBleConnect);
     bleController.setOnDisconnectCallback(handleBleDisconnect);
     bleController.setTextMessageCallback(lua_loop);
     bleController.setTextAbortCallback(luaClose);
-    bleController.switchToTextMode();
     bleController.setOtaCallbacks(onOtaStart, onOtaProgress, onOtaSuccess, onOtaError);
     bleController.setTextQueueCallback(addStringToQueue);
+    bleController.begin(deviceName);
+    bleController.switchToTextMode();
     initializeBLEHandlers();
     initQueue();
     LLOGI("BLE Controller initialized");

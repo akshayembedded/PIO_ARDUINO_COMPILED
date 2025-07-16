@@ -1,8 +1,17 @@
 #include <Arduino.h>
 #include "Global/global.h"
-#include "driver/i2c_master.h"
-#include "esp_task_wdt.h"
 
+extern "C" void app_main(void) {
+    initArduino(); 
+     Serial.begin(115200);
+     Serial.println("Starting LuaBLE...");
+    initializeDevice();
+    lua_setup();
+    while (true) {
+     processBLEMessages();
+    bleController.processOTAData();
+    }
+}
 // extern "C" void app_main(void)
 // {
 //     // Create config struct
@@ -37,35 +46,15 @@
 //      delay(10); // <<< Important!
 
 // }
-void myLoopTask(void *param)
-{
+// void myLoopTask(void *param)
+// {
 
-    // Init TWDT
-    while (true) {
-        processBLEMessages();
-        bleController.processOTAData();
-        // No delay here if needed
-    }
-}
+//     // Init TWDT
+//     while (true) {
+//         processBLEMessages();
+//         bleController.processOTAData();
+//         // No delay here if needed
+//     }
+// }
 
 
-extern "C" void app_main(void) {
-    initArduino(); // Init Arduino internals
-    // setup();       // Your Arduino setup()
-     Serial.begin(115200);
-     Serial.println("Starting LuaBLE...");
-
-    initializeDevice();
-    lua_setup();
-    // xTaskCreatePinnedToCore(myLoopTask, "LoopTask", 8192, NULL, 1, NULL, 1);
-    // esp_task_wdt_add(NULL);
-    while (true) {
-    //     // loop();    // Your Arduino loop()
-    //     // delay or yield automatically handled
-     processBLEMessages();
-    bleController.processOTAData();
-    // // yield(); // or delay(1);
-    // esp_task_wdt_reset();
-    // //     vTaskDelay(10); // FreeRTOS delay (1000ms)
-    }
-}
