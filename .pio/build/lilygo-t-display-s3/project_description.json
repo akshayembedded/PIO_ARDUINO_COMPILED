@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "BLE_TEMPLATE_JUNE",
-    "project_version":    "idf-component-3-gf7ab1d6-dirty",
+    "project_version":    "idf-component-4-g1ad1d52-dirty",
     "project_path":       "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED",
     "idf_path":           "C:/Users/embeddedmachan/.platformio/packages/framework-espidf",
     "build_dir":          "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3",
