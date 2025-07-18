@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/com
   file(MAKE_DIRECTORY "C:/Users/embeddedmachan/.platformio/packages/framework-espidf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader"
-  "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix"
-  "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/tmp"
-  "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp"
-  "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src"
-  "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp"
+  "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader"
+  "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix"
+  "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix/tmp"
+  "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp"
+  "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix/src"
+  "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -1,0 +1,10 @@
+{
+
+    "name": "Main SRC",
+    "version": "0.1.1",
+    "description": "MAIN SRC PLATFORMIO",
+    "keywords": "lua, esp32, esp32s3, scripting, interpreter, luatos",
+    "build": {
+        "includeDir": "."
+    }
+}

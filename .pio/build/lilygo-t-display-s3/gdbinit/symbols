@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/bootloader/bootloader.elf
+    add-symbol-file D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/BLE_TEMPLATE_JUNE.elf
+file D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/BLE_TEMPLATE_JUNE.elf

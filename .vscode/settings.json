@@ -102,6 +102,8 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "luat_conf_bsp_default.h": "c",
+        "c_common.h": "c"
     }
 }

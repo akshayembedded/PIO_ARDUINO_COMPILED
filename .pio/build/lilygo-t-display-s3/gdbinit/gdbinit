@@ -1,2 +1,2 @@
-source D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/gdbinit/symbols
-source D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/gdbinit/connect
+source D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/gdbinit/symbols
+source D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/gdbinit/connect

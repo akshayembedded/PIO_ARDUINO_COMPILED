@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/BLE_TEMPLATE_JUNE/.pio/build/lilygo-t-display-s3/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/.pio/build/lilygo-t-display-s3/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 endif()
 

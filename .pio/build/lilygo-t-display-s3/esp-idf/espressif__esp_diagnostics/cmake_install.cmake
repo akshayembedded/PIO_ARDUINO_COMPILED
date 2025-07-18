@@ -1,4 +1,4 @@
-# Install script for directory: D:/BLE_TEMPLATE_JUNE/managed_components/espressif__esp_diagnostics
+# Install script for directory: D:/BLE_TEMPLATE_JULY/PIO_ARDUINO_COMPILED/managed_components/espressif__esp_diagnostics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
