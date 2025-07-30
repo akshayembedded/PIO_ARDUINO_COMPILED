@@ -1,0 +1,22 @@
+.pio/build/lilygo-t-display-s3/liba5c/NimBLE-Arduino/nimble/nimble/host/src/ble_dtm.c.o: \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/host/src/ble_dtm.c \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/include/nimble/hci_common.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/include/nimble/ble.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/syscfg/syscfg.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/esp_port/port/include/esp_nimble_cfg.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimconfig.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimconfig_rename.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/os/os.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/include/nimble/nimble_npl.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/os/queue.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/npl/freertos/include/nimble/npl_freertos.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/os/endian.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/os/os_error.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/os/os_mbuf.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/porting/nimble/include/os/os_mempool.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/transport/include/nimble/transport.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/transport/include/nimble/transport_impl.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/transport/include/nimble/transport/monitor.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/host/include/host/ble_dtm.h \
+ .pio/libdeps/lilygo-t-display-s3/NimBLE-Arduino/src/nimble/nimble/host/src/ble_hs_hci_priv.h

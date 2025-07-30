@@ -1,0 +1,25 @@
+.pio/build/lilygo-t-display-s3/lib00e/LuaBLE_LuatOS/lua/src/ltm.c.o: \
+ lib/LuaBLE_LuatOS/src/lua/src/ltm.c \
+ lib/LuaBLE_LuatOS/src/lua/include/lprefix.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lua.h \
+ lib/LuaBLE_LuatOS/src/lua/include/luaconf.h \
+ lib/LuaBLE_LuatOS/src/luat_idf/include/luat_conf_bsp.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_conf_default.h \
+ lib/LuaBLE_LuatOS/src/printf/printf.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ldebug.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lstate.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lua.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lobject.h \
+ lib/LuaBLE_LuatOS/src/lua/include/llimits.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ltm.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lzio.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lmem.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ldo.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lobject.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lstate.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lstring.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lgc.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ltable.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ltm.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lvm.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ldo.h

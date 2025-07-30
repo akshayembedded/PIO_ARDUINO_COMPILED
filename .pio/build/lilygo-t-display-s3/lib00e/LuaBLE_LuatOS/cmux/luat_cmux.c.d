@@ -1,0 +1,31 @@
+.pio/build/lilygo-t-display-s3/lib00e/LuaBLE_LuatOS/cmux/luat_cmux.c.o: \
+ lib/LuaBLE_LuatOS/src/cmux/luat_cmux.c \
+ lib/LuaBLE_LuatOS/src/lua/include/lua.h \
+ lib/LuaBLE_LuatOS/src/lua/include/luaconf.h \
+ lib/LuaBLE_LuatOS/src/luat_idf/include/luat_conf_bsp.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_conf_default.h \
+ lib/LuaBLE_LuatOS/src/printf/printf.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_base.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_types.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lualib.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lua.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lauxlib.h \
+ lib/LuaBLE_LuatOS/src/lua/include/rotable.h \
+ lib/LuaBLE_LuatOS/src/lua/include/rotable2.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lstate.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lobject.h \
+ lib/LuaBLE_LuatOS/src/lua/include/llimits.h \
+ lib/LuaBLE_LuatOS/src/lua/include/ltm.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lzio.h \
+ lib/LuaBLE_LuatOS/src/lua/include/lmem.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_libs.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_msgbus.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_base.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_mem.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_malloc.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_log.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_mcu.h \
+ lib/LuaBLE_LuatOS/src/shell/luat_shell.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_str.h \
+ lib/LuaBLE_LuatOS/src/cmux/luat_cmux.h \
+ lib/LuaBLE_LuatOS/src/luat/include/luat_dbg.h
